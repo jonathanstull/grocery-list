@@ -27,6 +27,12 @@ $(document).ready(function() {
     groceryListUpper.push(groceryList[4].toUpperCase());
 
     console.log(groceryListUpper);
+
+    $(".item1").text(groceryListUpper[0]);
+    $(".item2").text(groceryListUpper[1]);
+    $(".item3").text(groceryListUpper[2]);
+    $(".item4").text(groceryListUpper[3]);
+    $(".item5").text(groceryListUpper[4]);
   });
 });
       
