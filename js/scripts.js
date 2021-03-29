@@ -20,12 +20,13 @@ $(document).ready(function() {
 
     console.log(groceryList);
 
+    groceryListUpper.push(groceryList[0].toUpperCase());
+    groceryListUpper.push(groceryList[1].toUpperCase());
+    groceryListUpper.push(groceryList[2].toUpperCase());
+    groceryListUpper.push(groceryList[3].toUpperCase());
+    groceryListUpper.push(groceryList[4].toUpperCase());
 
-
-    // groceryList.forEach(function(event) {
-    //   event.toUpperCase();
-    //   console.log(groceryList);
-    // });
+    console.log(groceryListUpper);
   });
 });
       
